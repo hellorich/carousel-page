@@ -1,5 +1,0 @@
-# .gitignore to keep just .scss files
-
-*
-!.gitignore
-!*.scss
