@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       },
       requirejs: {
         files: '<%= path.src %>/js/**/*.js',
-        tasks: ['newer:requirejs']
+        tasks: ['requirejs']
       },
       sass: {
         files: '<%= path.src %>/sass/**/*.scss',

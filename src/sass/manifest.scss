@@ -6,8 +6,10 @@
 //
 // Bourbon...............A lightweight SASS mixin library: http://bourbon.io
 // Neat..................A grid framework for Bourbon: http://neat.bourbon.io
+// Flickity..............Responsive, touch friendly carousels
 
 @import 'bourbon', 'neat';
+@import 'vendor/flickity/flickity';
 
 // Utilities
 

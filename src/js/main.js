@@ -1,9 +1,9 @@
-require(['jquery', 'test'], function ($, test) {
+require(['jquery', 'sliders'], function ($, sliders) {
   
   'use strict';
   
   console.log('Main loaded');
 
-  test.publicMethod('Hello');
+  sliders.init();
 
 });

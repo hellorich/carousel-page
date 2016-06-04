@@ -2,7 +2,8 @@ require.config({
 
   paths: {
     jquery: 'src/js/lib/jquery',
-    test: 'src/js/modules/test'
+    flickity: 'src/js/vendor/flickity/flickity.pkgd',
+    sliders: 'src/js/modules/sliders'
   }
 
 });
