@@ -73,28 +73,17 @@ module.exports = function(grunt) {
     },
 
     imagemin: {
-      gif: {
-        files: [
-          {
-            dest: '<%= path.dest %>/assets/img/gif/',
-            expand: true,
-            ext: '.gif',
-            flatten: true,
-            src: ['<%= path.src %>/img/gif/*.gif']
-          }
-        ]
-      },
       png: {
         options: {
           optimizationLevel: 7
         },
         files: [
           {
+            cwd: '<%= path.src %>/img/png/',
             dest: '<%= path.dest %>/assets/img/png/',
             expand: true,
             ext: '.png',
-            flatten: true,
-            src: ['<%= path.src %>/img/png/*.png']
+            src: '**/*.png'
           }
         ]
       },
@@ -104,11 +93,11 @@ module.exports = function(grunt) {
         },
         files: [
           {
+            cwd: '<%= path.src %>/img/jpg/',
             dest: '<%= path.dest %>/assets/img/jpg/',
             expand: true,
             ext: '.jpg',
-            flatten: true,
-            src: ['<%= path.src %>/img/jpg/*.jpg'],
+            src: '**/*.jpg'
           }
         ]
       },
@@ -120,11 +109,11 @@ module.exports = function(grunt) {
         },
         files: [
           {
+            cwd: '<%= path.src %>/img/svg/',
             dest: '<%= path.dest %>/assets/img/svg/',
             expand: true,
             ext: '.svg',
-            flatten: true,
-            src: ['<%= path.src %>/img/svg/*.svg']
+            src: '**/*.svg'
           }
         ]
       }
