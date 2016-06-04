@@ -1,0 +1,8 @@
+//
+// Slider
+// ---------------------------------------------------------------------------------
+
+.slider {
+  @include calc( height, '100vh - #{em(64)}');
+  background-color: $primary-color-dark;
+}
