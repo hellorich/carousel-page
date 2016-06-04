@@ -1,0 +1,13 @@
+//
+// Logo
+// ---------------------------------------------------------------------------------
+
+.logo {
+  @include size( em(64, 32) );
+  background-color: $logo-color;
+
+  a {
+    @include hide-text;
+    display: block;
+  }
+}
