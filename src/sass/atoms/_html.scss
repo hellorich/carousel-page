@@ -1,0 +1,12 @@
+//
+// HTML
+//
+// 1. Prevent adjustments of font size after orientation changes in IE and iOS.
+// 2. Change the default font family in all browsers (opinionated).
+// ---------------------------------------------------------------------------------
+
+html {
+  -ms-text-size-adjust: 100%; // 1
+  -webkit-text-size-adjust: 100%; // 1
+  font-family: sans-serif; // 2
+}
