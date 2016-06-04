@@ -42,7 +42,7 @@ module.exports = function(grunt) {
       },
       mustache_render: {
         files: '<%= path.src %>/mustache/**/*.{mustache,json}',
-        tasks: ['newer:mustache_render']
+        tasks: ['mustache_render']
       }
     },
 
