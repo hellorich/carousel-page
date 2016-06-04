@@ -1,0 +1,5 @@
+# .gitignore to keep just .png files
+
+*
+!.gitignore
+!*.svg

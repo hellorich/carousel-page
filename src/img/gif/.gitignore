@@ -1,0 +1,5 @@
+# .gitignore to keep just .gif files
+
+*
+!.gitignore
+!*.gif

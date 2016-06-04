@@ -1,0 +1,30 @@
+{
+  "name": "go",
+  "description": "Starter Grunt installation with some useful packages.",
+  "author": "Rich Cookson <rich@frobitz.com>",
+  "version": "0.1.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hellorich/go.git"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-browser-sync": "*",
+    "grunt-contrib-imagemin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-requirejs": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-mustache-render": "*",
+    "grunt-newer": "*",
+    "grunt-sass": "*",
+    "grunt-scss-lint": "*",
+    "jshint-stylish": "*",
+    "node-bourbon": "*",
+    "node-neat": "*",
+    "time-grunt": "*"
+  },
+  "dependencies": {
+    "matchdep": "*"
+  }
+}

@@ -1,0 +1,5 @@
+# .gitignore to keep just .jpg files
+
+*
+!.gitignore
+!*.jpg
