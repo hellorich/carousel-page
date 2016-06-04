@@ -1,1 +1,1 @@
-# carousel-page
+# slideshow-layout
