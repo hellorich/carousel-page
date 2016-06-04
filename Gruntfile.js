@@ -125,13 +125,12 @@ module.exports = function(grunt) {
         pretty: true
       },
       templates: {
-        files: [
-          {
-            data: '<%= path.src %>/mustache/data/index.json',
-            template: '<%= path.src %>/mustache/index.mustache',
-            dest: '<%= path.dest %>/index.html'
-          }
-        ]
+        options: {
+          data: '<%= path.src %>/mustache/data/data.json'
+        },
+        files: {
+          '<%= path.dest %>/index.html' : '<%= path.src %>/mustache/index.mustache'
+        }
       }
     },
 
