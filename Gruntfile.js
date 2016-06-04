@@ -34,7 +34,7 @@ module.exports = function(grunt) {
       },
       sass: {
         files: '<%= path.src %>/sass/**/*.scss',
-        tasks: ['newer:sass'],
+        tasks: ['sass'],
       },
       imagemin: {
         files: '<%= path.src %>/img/**/*.{gif,png,jpg,svg}',
